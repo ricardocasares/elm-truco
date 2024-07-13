@@ -8,10 +8,11 @@
   "scripts": {
     "postinstall": "elm-tooling install",
     "dev": "vite",
+    "test": "elm-test-rs",
+    "lint": "elm-review",
     "prebuild": "elm-tooling install",
     "build": "vite build",
     "serve": "vite preview",
-    "lint": "elm-review",
     "upgrade": "elm-json upgrade && cd review && elm-json upgrade && cd .."
   },
   "devDependencies": {
